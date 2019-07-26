@@ -1,10 +1,10 @@
 [![License](https://img.shields.io/badge/License-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-# DevOpsGirls Bootcamp!
+# DevOps Girls in Testing - 101 workshop
 
 ![DevOps Girls](/images/devopsgirls.jpg)
 
-In this repository are the slides and content for DevOpsGirls Bootcamp modules.
+In this repository are the slides and content for DevOps Girls in Testing - 101 workshop modules.
 
 ## Practicals
 

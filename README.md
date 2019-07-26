@@ -24,4 +24,4 @@ Good luck!
 
 ## I want to contribute to DevOps Girls. How can I help?
 
-The modules are free for anyone to use - and if you want to create your own and add it to the repository, feel free to check out our [contribution guidelines](/CONTRIBUTING.md)
+The modules are free for anyone to use - and if you want to create your own and add it to the repository, feel free to check out our [contribution guidelines](/CONTRIBUTING.md).

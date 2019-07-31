@@ -16,5 +16,3 @@ Windows 10
 
 ### Log into AWS
 
-First off, you'll need to go to https://devopsgirls.signin.aws.amazon.com/console using your browser. Log in with your supplied account credentials.
-

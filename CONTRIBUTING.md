@@ -23,7 +23,7 @@
 # Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. 
+email, or any other method with the owners of this repository before making a change.
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
@@ -31,7 +31,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 1. Update the CHANGES.md with details of changes to the modules - this includes corrections,
    syllabus updates for new features, or practical information.
-2. You may merge the Pull Request in once you have the sign-off of another developer, or if you 
+2. You may merge the Pull Request in once you have the sign-off of another developer, or if you
    do not have permission to do that, you may request the reviewer to merge it for you.
 
 ## Module Guidelines
@@ -50,7 +50,7 @@ people with existing backgrounds in tech?
 
 Even then, it's important to identify the level of experience you're working with. This is critical as
 you define the level of depth you want to dive in - e.g., do you assume that the attendees have experience
-with the command line, or do you also need to cover CLI basics? 
+with the command line, or do you also need to cover CLI basics?
 
 #### 2.) What are my learning outcomes?
 
@@ -61,7 +61,7 @@ To put it into questions: do you want the attendees to be able to *remember* wha
 want them to be able to *create a solution*? Would they be able to *evaluate* between different solutions?
 
 Consider using [Bloom's Taxonomy of Learning](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy)
-as a guide. 
+as a guide.
 
 ![Bloom's Taxonomy](/images/CONTRIBUTING/blooms-taxonomy.png)
 
@@ -89,7 +89,7 @@ Keep it short, but remember to pace down. It's better to take your time than rus
 behind - remember: not everyone is willing to ask you to repeat concepts and facts.
 
 
-#### 2.) Self-driven practical (60-90 minutes) 
+#### 2.) Self-driven practical (60-90 minutes)
 
 Consider running a practical exercise that the attendees can follow. A few things to keep in mind:
 
@@ -114,11 +114,11 @@ It's worth thinking about the day as a whole. There's multiple ways that you can
 
 ![The Kata](/images/CONTRIBUTING/the-kata.png)
 
-The "Kata" is essentially a way of structuring your content so that all your modules produce roughly the same output. 
+The "Kata" is essentially a way of structuring your content so that all your modules produce roughly the same output.
 Imagine an EC2, ECS, and Lambda modules all producing a standard webapp.
 
 This approach works if you want to enable attendees by giving them the ability to distinguish between different
-ways to approach a problem. *When do I use an EC2 versus a Lambda?* would be the kind of questions that they will 
+ways to approach a problem. *When do I use an EC2 versus a Lambda?* would be the kind of questions that they will
 be able to answer.
 
 #### Option B.) The "Castle"

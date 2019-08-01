@@ -10,10 +10,11 @@ Please arrive earlier if you have concerns about your machine or setup.
 | ------------- |-------------| -------------|
 | 9:30 | Machine setup verification |0-1|
 | 9:45 | Theory introduction to Testing in DevOps | 1-1|
-| 10:30 | Deploy website to S3  | 2-1|
-| 11:15 | Create server & deploy website to EC2 | 2-2|
-| 12:00 | Add monitoring & alerting (Cloudwatch) to EC2 | 3-1|
-| 12:30 | Choose your own adventure: AWS Developer Tools | 4-1|
+| 10:30 | Overview of AWS eco system | |
+|  | Deploy website to S3  | 2-1|
+|  | Create server & deploy website to EC2 | 2-2|
+|  | Add monitoring & alerting (Cloudwatch) to EC2 | 3-1|
+|  | Choose your own adventure: AWS Developer Tools | 4-1|
 
 
 TODO: 4-1

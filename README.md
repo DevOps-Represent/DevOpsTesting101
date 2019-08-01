@@ -14,7 +14,7 @@ In this repository are the slides and content for DevOps Girls in Testing - 101 
 
 This DevOpsGirls workshop is composed of three primary modules with an additional modules available for those looking to take on a bit more.
 
-1.) [Deploying a static website?](https://github.com/DevOpsGirls/devopsgirls-bootcamp/blob/master/1-1-EC2.md)
+1.) [Deploying a static website](https://github.com/DevOpsGirls/devopsgirls-bootcamp/blob/master/1-1-EC2.md)
 
 2.) [Deploying a web serving website](https://github.com/DevOpsGirls/devopsgirls-bootcamp/blob/master/2-1-ELB.md)
 

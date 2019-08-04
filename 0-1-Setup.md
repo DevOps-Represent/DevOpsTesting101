@@ -48,4 +48,18 @@ You will require software to run this virtual machine. Ideally you will have VMW
 
 You will be using your own personal basic/ free tier AWS account on the day, that you can manage yourself. If you don't have one yet, keep reading for the link with instructions to create it.
 
+### Creating your own personal account
+
+The link to create a free tier basic personal AWS account: https://portal.aws.amazon.com/billing/signup#/start
+
+The credit card details you provide, are a backup only in case you don't use free tier services.
+
+Don't worry, we will guide you through creating these services on the day.
+
+(here is a list of all free tier services, if you're keen to check them out: https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc )
+
 ### Log into AWS
+
+Verifying your account. When I log in to AWS, I get a screen that looks similar to this:
+
+![Logged into AWS](images/awsloggedin.png "Logged into AWS")

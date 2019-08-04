@@ -1,6 +1,6 @@
 # Before the workshop: preparing your machine
 
-## Your laptop
+## A. Your laptop
 
 Please note: you will need access to a laptop and an AWS account on the day.
 
@@ -10,22 +10,22 @@ This workshop will require at minimum, installation of virtual machine software,
 
 For the AWS account, please continue with these steps below, to get this set up. The steps are really quite easy and straight forward.
 
-## Windows
+## B. Windows
 
 If you are bringing a Windows machine, we advise that your operating system is at least Windows 10.
 
-#### SSH
+### 1. Windows 10: SSH
 
 On Windows 10, on your Command Line, you should see this output when typing 'ssh' and pressing Enter:
 
 ![SSH on Windows](images/ssh_image.jpg "SSH on Windows")
 
-### If you are not using Windows 10:
+### 2. If you are not using Windows 10
 
 Please install PuTTY and PuTTY Gen, following steps 1-3 of section "Generate the key" : https://github.com/DevOps-Girls/devopsgirls-bootcamp/blob/master/8-2-SSH-from-Windows.md
 
 
-## All machines: Admin privileges
+## C. All machines: Admin privileges
 
 For our workshops, ideally you have a laptop over which you have administrative privileges, meaning you can install software without requiring special permission.  
 
@@ -33,18 +33,20 @@ For our workshops, ideally you have a laptop over which you have administrative 
 
 If you do not have full admin permissions on your laptop, we may provide you with an Ubuntu Linux virtual machine and we will help you use it on the day.
 
-### 1) Windows only
+Please continue to follow the steps below too:
+
+#### 1. Windows only
 
 Please install PuTTY and PuTTY Gen, following steps 1-3 of section "Generate the key" : https://github.com/DevOps-Girls/devopsgirls-bootcamp/blob/master/8-2-SSH-from-Windows.md
 
-### 2) All machines
+#### 2.. All machines
 
-#### 2.1) Virtual machine software
+#### 2.1. Virtual machine software
 
 You will require software to run this virtual machine. Ideally you will have VMWare software installed on your laptop, otherwise VirtualBox (free, but may be slow and laggy).
 
 
-## Your own AWS account
+## D. Your own AWS account
 
 You will be using your own personal basic/ free tier AWS account on the day, that you can manage yourself. If you don't have one yet, keep reading for the link with instructions to create it.
 
@@ -63,3 +65,6 @@ Don't worry, we will guide you through creating these services on the day.
 Verifying your account. When I log in to AWS, I get a screen that looks similar to this:
 
 ![Logged into AWS](images/awsloggedin.png "Logged into AWS")
+
+
+## If you got this far, congratulations, you're all set to go!

@@ -10,11 +10,9 @@ This workshop is self-paced, after the introduction sections.
 | ------------- |-------------| -------------|
 | 9:30 | Machine setup verification |[0-1 Setup](0-1-Setup.md)|
 | 9:45 | Introduction to Testing in DevOps |[1-1 Testing in DevOps, an Overview](1-1-TestingInDevOps.md)|
-| 10:30 | Overview of AWS eco system | |
-|  | Deploy website to S3  | 2-1|
-|  | Create server & deploy website to EC2 | 2-2|
-|  | Add monitoring & alerting (Cloudwatch) to EC2 | 3-1|
-|  | Choose your own adventure: AWS Developer Tools | 4-1|
+| 10:30 | Overview of AWS eco system | - |
+|  | Deploy website to S3  | [2-1 Deploy to S3](2-1-DeployToS3.md)|
+|  | Create server & deploy website to EC2 | [2-2 Deploy to EC2](2-2-DeployToEC2.md)|
+|  | Add monitoring & alerting (Cloudwatch) to EC2 | [3-1 Monitoring](3-1-Monitoring.md)|
+|  | Choose your own adventure: AWS Developer Tools | [4-1 Adventure](4-1-Adventure.md)|
 
-TODO: 4-1
-https://ap-southeast-2.console.aws.amazon.com/codesuite/codecommit/start?region=ap-southeast-2

@@ -4,25 +4,29 @@
 
 ![DevOps Girls](/images/devopsgirls.jpg)
 
-In this repository are the slides and content for DevOps Girls in Testing - 101 workshop modules.
+In this repository are the slides and content for DevOps Girls in Testing - 101 workshop.
 
-## Agenda
+## This workshop
 
-[Agenda](https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/1-0-Agenda.md)
+This workshop is offered with a few tweaks:
 
-## Practicals
+* for intro attendees only
+* with a Testing in DevOps flavour
+* a smaller, more intimate group
+* half day, not full day
 
-This DevOpsGirls workshop is composed of three primary modules with an additional modules available for those looking to take on a bit more.
+You will most likely be in a testing role or be interested in testing, and not have attended any of our previous bootcamps, be completely new to DevOps, or feel that a previous bootcamp was too advanced to follow.
 
-1.) [Deploying a static website](https://github.com/DevOpsGirls/devopsgirls-bootcamp/blob/master/1-1-EC2.md)
+Come join us in this workshop and meet other awesome girls in tech! Remember to bring your laptop as this workshop will be completely hands-on.
 
-2.) [Deploying a web serving website](https://github.com/DevOpsGirls/devopsgirls-bootcamp/blob/master/2-1-ELB.md)
+### Agenda
 
-3.) [Add monitoring to your web server](https://github.com/DevOpsGirls/devopsgirls-bootcamp/blob/master/3-1-ASG.md)
+[The half-day workshop agenda](https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/1-0-Agenda.md)
 
-If you run into anything, just give your coaches a shout - we'll be happy to help you.
+## Code of Conduct
 
-Good luck!
+[Our Code of Conduct](https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/CONTRIBUTING.md#code-of-conduct)
+
 
 ## I want to contribute to DevOps Girls. How can I help?
 

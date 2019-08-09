@@ -2,7 +2,6 @@
 
 ### EC2 = "Elastic Compute Cloud"
 
-
 ## Key Concepts
 
 Before we get started, let's go over some basic concepts first:
@@ -24,6 +23,9 @@ In this practical exercise, we will do the following:
  - Put a simple Wordpress blog on it
 
 ## Creating your instance
+
+For this exercise, you will be accepting the defaults as presented.
+
 
 ### 1.A) Pre-requisite: you are already logged into your AWS account
 
@@ -70,7 +72,7 @@ For this lesson, we are choosing a template provided on the AWS marketplace, cal
 3. Select the "WordPress Certified by Bitnami and Automattic" image
 
 
-![Select template][https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/images/2-2-EC2/2-2-5-selectEC2template.png]
+![Select template](images/2-2-EC2/2-2-5-selectEC2template.png)
 
 
 ### 6.) Choose your instance type
@@ -83,7 +85,7 @@ Note that the per-hour pricing varies with each instance type, and that some of 
 
 ### 7.) Take a look at instance details
 
-We're not going to change anything in this section - but these are additional networking and authorization details that you can specify when creating an instance. Where are you going to install it? Will it be private, or public? How does it handle being shut down?
+We're not going to change anything in this section - but these are additional networking and authorisation details that you can specify when creating an instance. Where are you going to install it? Will it be private, or public? How does it handle being shut down?
 
 ![Instance details][1-1-6-instancedeets]
 
@@ -116,41 +118,53 @@ They are:
 * HTTP - for website HTML transfer
 * HTTPS - for secure website HTML transfer
 
-![Secgroups][https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/images/2-2-EC2/step6ConfigureSecurityGroup.png]
+![SecurityGroups](images/2-2-EC2/step6ConfigureSecurityGroup.png)
 
-You also have the option to specify *"My IP"* in the SSH section, so that only you can access the management traffic for your instance.
+You also have the option to specify **My IP** in the SSH section, so that only you can access the management traffic for your instance.
 
 ### 11.) Using the keypair you made previously
 
-Finally, we get to the part where you have to choose the key file that you want to access your instance with. Remember the key pair you made earlier? Select *"Choose an existing keypair"* and select the name of the keypair you made previously. Now, click on **Launch Instance**.
+Finally, we get to the part where you have to choose the key file that you want to access your instance with. Remember the key pair you made earlier? Select **Choose an existing keypair** and select the name of the keypair you made previously. Now, click on **Launch Instance**.
 
-![Keypair][1-1-10-keypair]
+![Keypair](images/2-2-EC2/selectkeypairLaunch.png)
 
 ### 12.) Launching your instance
 
-Once your instance launches, you'll see a window that shows your instance IDs. There will also be details below of how you should connect to your instance. You can follow these, or you can click on the next few links.
+The summary page shows you:
 
-![Launching][https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/images/2-2-EC2/step7ReviewInstanceLaunch.35.03%20pm.png]
+![ReviewLaunch](images/2-2-EC2/step7ReviewInstanceLaunch.png)
 
-### 13.) Seeing your instance properties
+Accept the defaults and press **Launch**.
 
-If you click on your instance ID, you will be able to see it from the list of EC2 instances. At the bottom window, you're going to see a list if your instance properties - what it's called, what the IP addresses are, and where it lives. You're going to want to look for the section that says **Public IP**.
+Once your instance launches, you'll see a window that shows your instance IDs There will also be details below of how you should connect to your instance. You can follow these, or you can click on the next few links.
 
-![Properties][1-1-12-properties]
+![Launching](images/2-2-EC2/launchinginstance.png)
 
-### 14.) Seeing your instance properties
+You can click on the instance ID, to take you to its properties.
+
+### 13.) Name your instance
 
 For better recognition, name your instance.
 
-![InstanceName][https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/images/2-2-EC2/instancenaming.png
-]
+![InstanceName](images/2-2-EC2/instancenaming.png)
+
+### 14.) Seeing your instance properties
+
+In the section below the instance name, you're going to see a list if your instance properties - what it's called, what the IP addresses are, and where it lives. You're going to want to look for the section that says **Public IP**.
+
+![Properties][1-1-12-properties]
+
+
 ### 15.) Checking your Wordpress page
 
-Using the **Public IP** from above, copy that and paste it into a browser page.  
 
-You should see this page loading:
+![yourIP](images/2-2-EC2/youripaddress.png)
 
-![WordPress][https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/images/2-2-EC2/wordpresshomepage.jpg]
+Once your instance has finished loading, use the **Public IP** from above, copy that and paste it into a browser page.  
+
+You should see this landing page:
+
+![WordPress](images/2-2-EC2/wordpresshomepage.jpg)
 
 ## 16.) Logging in
 
@@ -160,7 +174,7 @@ On the WordPress home page, select "Log In".
 
 Your username will be **user**.
 
-Finding your WordPress password:
+#### Finding your WordPress password:
 
 https://docs.bitnami.com/aws/faq/get-started/find-credentials/
 
@@ -168,11 +182,13 @@ https://docs.bitnami.com/aws/faq/get-started/find-credentials/
 
 Once you find your password in the log file, we discovered you *have* to right-click and Copy this password. Pressing Ctrl-C or Cmd-C, somehow doesn't work.
 
-![WordPress][https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/images/2-2-EC2/WPcreds.png]
+#### Once you have found your credentials, try logging in:
 
-Once you have found your credentials, try logging in. This should work and you will see this page:
+![WordPress](images/2-2-EC2/WPcreds.png)
 
-![WordPress][https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/images/2-2-EC2/WPloggedin.png]
+#### This should work and you will see this page:
+
+![WordPress](images/2-2-EC2/WPloggedin.png)
 
 ### Login to your instance
 
@@ -183,14 +199,13 @@ Make note of the IP address you saw in your instance properties. Use the followi
 
 
 
-## 16.) Congratulations!
+## 17.) Congratulations!
 
 If you made it this far, congratulations. You have have a choice now, to play with your Linux shell, or to add monitoring.
 
-For the Linux shell: 
-For monitoring:
+For the Linux shell: https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/4-1-Adventure.md#a-linux-command-line-cli-101
 
-
+For monitoring: https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/3-1-Monitoring.md
 
 
 
@@ -209,7 +224,6 @@ For monitoring:
 [1-1-11-launch]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/1-1-EC2/1-1-11-launch.png
 [1-1-12-properties]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/1-1-EC2/1-1-12-properties.png
 [1-1-13-blankbrowser]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/1-1-EC2/1-1-13-blankbrowser.png
-[1-1-14-mysql]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/1-1-EC2/1-1-14-mysql.png
 [1-1-15-wordpresssetup]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/1-1-EC2/1-1-15-wordpresssetup.png
 [1-1-16-wpsqlsetup]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/1-1-EC2/1-1-16-wpsqlsetup.png
 [1-1-17-wpfinished]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/1-1-EC2/1-1-17-wpfinished.png

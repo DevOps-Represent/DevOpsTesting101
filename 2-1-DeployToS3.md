@@ -23,19 +23,27 @@ https://docs.aws.amazon.com/s3/index.html
 ### a. Access the S3 page
 ![s3homepage](images/2-1-S3/s3homepage.png)
 
-#### Select "Create bucket"
 
-### b. Fill in your bucket name and the region
+### b. Select "Create bucket"
 ![s3fillindetails](images/2-1-S3/s3nameregion.png)
 
 
-### c. Confirm bucket creation
+### c. Provide the bucket name continue
+
+The bucket name needs to be unique, so consider a name like **yourname-devopsgirls**.
+
+#### Click next until permissions
+
+![s3createbucket](images/2-1-S3/s3permissions.png)
+
+#### Confirm bucket creation
+
 ![s3createbucket](images/2-1-S3/s3createbucket.png)
 
-### d. Static website hosting settings
+### d. Set up static website hosting settings
 ![s3static](images/2-1-S3/s3staticwebsitehosting.png)
 
-#### index.html
+#### Type in the default index document (index.html)
 ![s3index](images/2-1-S3/s3indexhtml.png)
 
 ### e. Set bucket policy
@@ -86,14 +94,20 @@ Ensure you include all the files, including the license and readme
 
 ![s3filesready](images/2-1-S3/s3readyforupload.png)
 
-#### Upload
+#### Click Upload
+
+The successfully uploaded files will be listed in the S3 bucket:
 ![s3filesready](images/2-1-S3/s3filesuploaded.png)
 
-#### Ensure the index.html is visible in the bucket 'root' directory (not embedded in another folder)
+#### Just check that the index.html is visible in the bucket 'root' directory (not embedded in another folder)
 ![s3filesready](images/2-1-S3/s3checkindex.png)
 
 ## 3. Success! View your website
+### Open the static website page setting again and select bucket/website endpoint
 ![s3homepage](images/2-1-S3/s3linktowebsite.png)
+
+### Paste that into a browser and press Enter
+![success](images/2-1-S3/s3success.png)
 
 ***
 

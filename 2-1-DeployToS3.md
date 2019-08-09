@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/s3/index.html
 ### a. Access the S3 page
 ![s3homepage](images/2-1-S3/s3homepage.png)
 
+#### Select "Create bucket"
 
 ### b. Fill in your bucket name and the region
 ![s3fillindetails](images/2-1-S3/s3nameregion.png)
@@ -81,7 +82,7 @@ Go to this page for ready to go website templates: https://html5up.net/
 
 #### Drag these selected files and drop into S3
 
-Ensure you include all the files, including the license and readme 
+Ensure you include all the files, including the license and readme
 
 ![s3filesready](images/2-1-S3/s3readyforupload.png)
 

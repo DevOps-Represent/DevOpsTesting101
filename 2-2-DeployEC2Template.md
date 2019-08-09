@@ -70,7 +70,7 @@ For this lesson, we are choosing a template provided on the AWS marketplace, cal
 3. Select the "WordPress Certified by Bitnami and Automattic" image
 
 
-![Select template][2-2-5-selectEC2template.png]
+![Select template][images/2-2-EC2/2-2-5-selectEC2template.png]
 
 
 ### 6.) Choose your instance type

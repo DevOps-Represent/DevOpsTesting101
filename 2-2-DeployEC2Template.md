@@ -146,17 +146,26 @@ You should see this page loading:
 
 ![WordPress][images/2-2-EC2/wordpresshomepage.jpg]
 
-## Logging in
+## 15.) Logging in
 
 ### Log into WordPress
+
+On the WordPress home page, select "Log In".
+
+Your username will be **user**.
 
 Finding your WordPress password:
 
 https://docs.bitnami.com/aws/faq/get-started/find-credentials/
 
-Your username will be 'user'
+**Note:** This log file reading can be a bit tricky and the log file contents are not always displayed at first. The trick is to keep trying, and we have found eventually the log file does display the content.
 
-Once you have found your credentials, try logging in. This should work.
+Once you find your password in the log file, we discovered you *have* to right-click and Copy this password. Pressing Ctrl-C or Cmd-C, somehow doesn't work.
+
+
+Once you have found your credentials, try logging in. This should work and you will see this page:
+
+![WordPress][images/2-2-EC2/wordpresshomepage.jpg]
 
 ### Login to your instance
 
@@ -167,15 +176,14 @@ Make note of the IP address you saw in your instance properties. Use the followi
 
 
 
-### 22.) Finishing up
+## 16.) Congratulations!
 
-Fill in the installation with all the details you declared.
+If you made it this far, congratulations. You have have a choice now, to play with your Linux shell, or to add monitoring.
 
-![Image][1-1-16-wpsqlsetup]
+For the Linux shell: 
+For monitoring:
 
-If everything went well, you'll have a complete Wordpress installation!
 
-![Image][1-1-17-wpfinished]
 
 
 

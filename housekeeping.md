@@ -1,18 +1,22 @@
 # Housekeeping
 
 ## Introductions
+* Who we are
+* Who you are
 
 ## Logistics
 
-Bathrooms
-Phones etc
-Network access and credentials
-Pacing and breaks
-Questions
+* Bathrooms
+* Phones etc
+* Pacing and breaks
+* Questions
 
 ## Wifi
+See whiteboard for REA wifi creds 
 
 ## Agenda
+https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/1-0-Agenda.md
 
 ## Pairing
-Try and work as pairs, this often helps the learning process
+Try and work as pairs, this often helps the learning process.
+Meet the person next to you.

@@ -81,7 +81,11 @@ When you think of instance types, think of it as asking the question: *"How big 
 
 ![instancetype][1-1-5-instancetype]
 
-Note that the per-hour pricing varies with each instance type, and that some of them are suited for very specific tasks. For this example, we're going to choose a small size: a *t2.micro*
+Note that the per-hour pricing varies with each instance type, and that some of them are suited for very specific tasks. For this example, we're going to choose a small size: a *t2.micro*.
+
+The below is displayed as info:
+
+![PricingInfo](images/2-2-EC2/EC3pricingnotification.png)
 
 ### 7.) Take a look at instance details
 

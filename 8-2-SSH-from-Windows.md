@@ -5,7 +5,7 @@
 Please enable ssh on your machine:
 https://www.howtogeek.com/336775/how-to-enable-and-use-windows-10s-built-in-ssh-commands/
 
-If successful, you will see this in your command line:
+If the above is successful, you will see this in your command line:
 
 ## Lower versions of windows
 

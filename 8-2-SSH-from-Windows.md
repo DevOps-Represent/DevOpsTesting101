@@ -1,4 +1,13 @@
-# SSH access from Windows 
+# SSH access from Windows
+
+## With Windows 10, a lot has been simplified for us in this workshop!
+
+Please enable ssh on your machine:
+https://www.howtogeek.com/336775/how-to-enable-and-use-windows-10s-built-in-ssh-commands/
+
+If successful, you will see this in your command line:
+
+## Lower versions of windows
 
 Unfortunately, the best SSH client for Windows also requires its own format. So the Windows steps will have two parts: A.) Generating the key, and B.) Using the key
 
@@ -24,7 +33,7 @@ Under **Type of key to generate**, select **SSH-2 RSA**.
 
 ### 5.) Load your Key Pair
 
-Click on **Load**. By default, PuTTYgen displays only files with the extension `.ppk`. To locate your .pem file, select the option to display *All Files*. 
+Click on **Load**. By default, PuTTYgen displays only files with the extension `.ppk`. To locate your .pem file, select the option to display *All Files*.
 
 Go to the directory where you downloaded your Key Pair, open the file, and click on *Open*.
 
@@ -39,7 +48,7 @@ Specify the same name for the key that you used for the key pair (for example, `
 
 ## Logging in
 
-### 1.) Start PuTTY 
+### 1.) Start PuTTY
 
 From the Start menu, choose **All Programs > PuTTY > PuTTY**
 
@@ -54,7 +63,7 @@ In the *Category* pane, select **Session** and complete the following fields:
  Connection type: SSH
 ```
 
-Make sure you replace *[PUBLIC IP]* with the *Public IP* of your EC2 instance. For example: 
+Make sure you replace *[PUBLIC IP]* with the *Public IP* of your EC2 instance. For example:
 
 ```
  Host: ec2-user@22.33.44.55

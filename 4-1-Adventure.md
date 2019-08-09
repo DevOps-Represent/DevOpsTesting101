@@ -1,6 +1,6 @@
 # Choose your own adventure
 
-You now have the option to design your own adventure.
+You now have the option to design your own adventure, and find more ways of Testing in DevOps or just playing with AWS for fun.
 
 You can do one, a few or all of the below activities (in class or after class). If you try these in class, you will have the benefit of having one of our volunteer coaches around to help you if you get stuck:
 
@@ -45,3 +45,7 @@ https://aws.amazon.com/getting-started/tutorials/?awsf.getting-started-content=u
 ## E. Docker 101
 
 https://github.com/DevOps-Girls/docker-101
+
+## F. EC2, not using a template
+
+https://github.com/DevOps-Girls/devopsgirls-bootcamp/blob/master/1-1-EC2.md

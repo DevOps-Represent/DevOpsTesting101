@@ -119,6 +119,9 @@ The successfully uploaded files will be listed in the S3 bucket:
 1. Edit the file on your local machine using a text editor
 2. Preview the changes in your browser
 3. When you are happy with its look, upload the file again to S3
+4. Refresh the S3 endpoint browser page and admire your work
+
+![success](images/2-1-S3/s3success.png)
 
 ##### HTML tutorial:
 https://www.w3schools.com/html/

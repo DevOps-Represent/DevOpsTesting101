@@ -26,6 +26,9 @@ If you have not yet joined our Slack team, or are having trouble joining, ask JC
 Once in our team, join the #aug2019-workshop channel:
 https://devopsgirls.slack.com/messages/CM479EG2G
 
+## Terms and Glossary
+
+We are attempting to define all the terms we use, either in the text itself, or the [glossary](glossary.md).
 
 
 ## Pairing

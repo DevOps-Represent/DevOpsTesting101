@@ -198,8 +198,8 @@ Once you find your password in the log file, we discovered you *have* to right-c
 
 Make note of the IP address you saw in your instance properties. Use the following guides depending on what operating system you have:
 
- - [If you are using a Mac](https://github.com/DevOpsGirls/devopsgirls-bootcamp/blob/master/8-1-SSH-from-Mac.md)
- - [If you are using Windows](https://github.com/DevOpsGirls/devopsgirls-bootcamp/blob/master/8-2-SSH-from-Windows.md)
+ - [If you are using a Mac](https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/8-1-SSH-from-Mac.md)
+ - [If you are using Windows](https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/8-2-SSH-from-Windows.md)
 
 
 

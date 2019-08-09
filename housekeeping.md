@@ -15,4 +15,4 @@ Questions
 ## Agenda
 
 ## Pairing
-Try and resolve your issues as pairs, this helps the learning process
+Try and work as pairs, this often helps the learning process

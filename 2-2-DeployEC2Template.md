@@ -1,6 +1,6 @@
 # Deploy Wordpress to EC2 from a Template
 
-EC2: Elastic Compute Cloud
+### EC2 = "Elastic Compute Cloud"
 
 
 ## Key Concepts
@@ -20,7 +20,7 @@ Now that that's out of the way, let's get started!
 In this practical exercise, we will do the following:
 
  - Create an SSH keypair
- - Create an EC2 instance
+ - Create an EC2 instance from a template
  - Put a simple Wordpress blog on it
 
 ## Creating your instance
@@ -107,9 +107,14 @@ Tagging your instance is important - think of it as a way to identify your insta
 For this example, we're going to tag your instance with a *Name*. Put *Name* in the box below *Key*; put any name you want on the *Value*, like **DevOpsGirls Wordpress**. This will be the name of your instance when you see it on a list later.
 
 
-### 10.) Setting security groups
+### 10.) Checking security groups
 
-You'll need to set security groups, so that you can allow certain traffic towards your instance. Because we want to put a website on this instance, we'll need to add a HTTP rule that allows any traffic from anywhere to go to it. See as follows:
+Because this is a template, the security groups have already been set for you.
+
+They are:
+* SSH - for remote secure shell access
+* HTTP - for website HTML transfer
+* HTTPS - for secure website HTML transfer
 
 ![Secgroups][1-1-9-secgroups]
 
@@ -133,6 +138,13 @@ If you click on your instance ID, you will be able to see it from the list of EC
 
 ![Properties][1-1-12-properties]
 
+### 14.) Checking your Wordpress page
+
+Using the **Public IP** from above, copy that and paste it into a browser page.  
+
+You should see this page loading:
+
+![WordPress][images/2-2-EC2/wordpresshomepage.jpg]
 
 ## Logging in
 
@@ -142,8 +154,9 @@ Finding your WordPress password:
 
 https://docs.bitnami.com/aws/faq/get-started/find-credentials/
 
-
 Your username will be 'user'
+
+Once you have found your credentials, try logging in. This should work.
 
 ### Login to your instance
 

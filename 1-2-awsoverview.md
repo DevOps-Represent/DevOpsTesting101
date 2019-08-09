@@ -1,10 +1,10 @@
-# AWS Eco System
+# AWS eco-system
 
 ## AWS Management Console
 
 Guided walkthrough of home screen:
 
-![Console](linktoconsole)
+![Console](images/1-x-introduction/awsconsole.png)
 
 ## Global infrastructure
 

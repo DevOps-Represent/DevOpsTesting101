@@ -68,3 +68,5 @@ Verifying your account. When I log in to AWS, I get a screen that looks similar 
 
 
 ## If you got this far, congratulations, you're all set to go!
+
+(If you are stuck - we have some VMs on disk that we can give you, as per https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/0-1-Setup.md#21-virtual-machine-software)

@@ -1,6 +1,6 @@
 # Monitoring
 
-Monitoring in effect is a type of feedback that testers too may greatly benefit from.
+Monitoring is a type of feedback that testers too may greatly benefit from.
 
 The topic itself is "so hot right now", including its cousin topic 'Observability'.
 

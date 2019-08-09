@@ -70,7 +70,7 @@ For this lesson, we are choosing a template provided on the AWS marketplace, cal
 3. Select the "WordPress Certified by Bitnami and Automattic" image
 
 
-![Select template][images/2-2-EC2/2-2-5-selectEC2template.png]
+![Select template][https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/images/2-2-EC2/2-2-5-selectEC2template.png]
 
 
 ### 6.) Choose your instance type
@@ -116,7 +116,7 @@ They are:
 * HTTP - for website HTML transfer
 * HTTPS - for secure website HTML transfer
 
-![Secgroups][1-1-9-secgroups]
+![Secgroups][https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/images/2-2-EC2/step6ConfigureSecurityGroup.png]
 
 You also have the option to specify *"My IP"* in the SSH section, so that only you can access the management traffic for your instance.
 
@@ -130,7 +130,7 @@ Finally, we get to the part where you have to choose the key file that you want 
 
 Once your instance launches, you'll see a window that shows your instance IDs. There will also be details below of how you should connect to your instance. You can follow these, or you can click on the next few links.
 
-![Launching][1-1-11-launch]
+![Launching][https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/images/2-2-EC2/step7ReviewInstanceLaunch.35.03%20pm.png]
 
 ### 13.) Seeing your instance properties
 
@@ -138,15 +138,21 @@ If you click on your instance ID, you will be able to see it from the list of EC
 
 ![Properties][1-1-12-properties]
 
-### 14.) Checking your Wordpress page
+### 14.) Seeing your instance properties
+
+For better recognition, name your instance.
+
+![InstanceName][https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/images/2-2-EC2/instancenaming.png
+]
+### 15.) Checking your Wordpress page
 
 Using the **Public IP** from above, copy that and paste it into a browser page.  
 
 You should see this page loading:
 
-![WordPress][images/2-2-EC2/wordpresshomepage.jpg]
+![WordPress][https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/images/2-2-EC2/wordpresshomepage.jpg]
 
-## 15.) Logging in
+## 16.) Logging in
 
 ### Log into WordPress
 
@@ -162,10 +168,11 @@ https://docs.bitnami.com/aws/faq/get-started/find-credentials/
 
 Once you find your password in the log file, we discovered you *have* to right-click and Copy this password. Pressing Ctrl-C or Cmd-C, somehow doesn't work.
 
+![WordPress][https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/images/2-2-EC2/WPcreds.png]
 
 Once you have found your credentials, try logging in. This should work and you will see this page:
 
-![WordPress][images/2-2-EC2/wordpresshomepage.jpg]
+![WordPress][https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/images/2-2-EC2/WPloggedin.png]
 
 ### Login to your instance
 

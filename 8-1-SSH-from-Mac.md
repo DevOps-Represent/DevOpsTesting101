@@ -38,10 +38,15 @@ Remember how we made a note of the *Public IP* of your EC2 instance? Now we need
 
 ### 5.) Login!
 
-Finally, we login to the instance. We do this with a command that looks like this:
+Finally, we login to the instance. For an Amazon AMI, we do this with a command that looks like this:
 
 ```
 ssh ec2-user@[MY IP ADDRESS] -i ~/Downloads/[MY KEYPAIR NAME].pem
+```
+
+For an Ubuntu AMI, we do this with a command that looks like this:
+```
+ssh ubuntu@[MY IP ADDRESS] -i ~/Downloads/[MY KEYPAIR NAME].pem
 ```
 
 Assuming we have a *Public IP* of `22.22.22.22`, and we have a Key Pair called `banana-smith-keypair`, your command would look like this:
@@ -49,5 +54,8 @@ Assuming we have a *Public IP* of `22.22.22.22`, and we have a Key Pair called `
 ```
 ssh ec2-user@22.22.22.22 -i ~/Downloads/banana-smith-keypair.pem
 ```
-
+or 
+```
+ssh ubuntu@22.22.22.22 -i ~/Downloads/banana-smith-keypair.pem
+```
 

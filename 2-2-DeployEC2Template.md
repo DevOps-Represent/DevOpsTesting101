@@ -205,7 +205,7 @@ Make note of the IP address you saw in your instance properties. Use the followi
 
 ## 17.) Congratulations!
 
-If you made it this far, congratulations. You have have a choice now, to play with your Linux shell, or to add monitoring.
+If you made it this far, congratulations. You have a choice now, to play with your Linux shell, or to add monitoring.
 
 For the Linux shell: https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/4-1-Adventure.md#a-linux-command-line-cli-101
 

@@ -20,6 +20,10 @@ On Windows 10, on your Command Line, you should see this output when typing 'ssh
 
 ![SSH on Windows](images/ssh_image.jpg "SSH on Windows")
 
+If you don't see this output, i.e. if ssh is not recognised, please follow these instructions to enable ssh on your machine: https://www.howtogeek.com/336775/how-to-enable-and-use-windows-10s-built-in-ssh-commands/
+
+You should now be able to get the above output when typing in and pressing Enter after 'ssh'.
+
 ### 2. If you are not using Windows 10
 
 Please install PuTTY and PuTTY Gen, following steps 1-3 of section "Generate the key" : https://github.com/DevOps-Girls/devopsgirls-bootcamp/blob/master/8-2-SSH-from-Windows.md
@@ -39,7 +43,7 @@ Please continue to follow the steps below too:
 
 Please install PuTTY and PuTTY Gen, following steps 1-3 of section "Generate the key" : https://github.com/DevOps-Girls/devopsgirls-bootcamp/blob/master/8-2-SSH-from-Windows.md
 
-#### 2.. All machines
+#### 2. All machines
 
 #### 2.1. Virtual machine software
 

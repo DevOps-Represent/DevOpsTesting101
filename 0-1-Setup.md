@@ -6,7 +6,7 @@ Please note: you will need access to a laptop and an AWS account on the day.
 
 For the laptop, it is preferred that you have full administrative permissions on the laptop that you bring. If you do not have a personal laptop with full permissions, you may bring your work laptop. Many do not have admin permissions on their work laptops, or have security restrictions for installing software.
 
-This workshop will require at minimum, installation of virtual machine software, at best you have full permissions. Please choose carefully if you are bringing your work laptop, or a personal one.
+This workshop may require at minimum, installation of virtual machine software, at best you have full permissions. Please choose carefully if you are bringing your work laptop, or a personal one.
 
 For the AWS account, please continue with these steps below, to get this set up. The steps are really quite easy and straight forward.
 

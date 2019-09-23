@@ -8,7 +8,7 @@ This workshop is self-paced, after the introduction sections.
 
 | Time  | Content  | Section |
 | ------------- |-------------| -------------|
-| 8:30 - 9:00 | Machine setup verification |[0-1 Setup](0-1-Setup.md)|
+| 8:30 - 9:00 | Connect to wifi network |[0-1 Setup](0-1-Setup.md)|
 | 9:00 | Welcome & Introductions & Housekeeping | [0-2 Housekeeping](0-2-housekeeping.md)|
 | 9:10  | Introduction to Testing in DevOps |[1-1 Testing in DevOps, an Overview](1-1-TestingInDevOps.md)|
 | 9:50 | Overview of AWS eco system | [1-2 AWS Overview](1-2-awsoverview.md) |

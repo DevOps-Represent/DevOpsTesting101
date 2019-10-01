@@ -25,9 +25,9 @@ Come join us in this workshop and meet other awesome girls in tech! Remember to 
 
 ## Code of Conduct
 
-[Our Code of Conduct](https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/CONTRIBUTING.md#code-of-conduct)
+[Our Code of Conduct](https://github.com/DevOps-Girls/Administration/blob/master/CoC.md)
 
 
 ## I want to contribute to DevOps Girls. How can I help?
 
-The modules are free for anyone to use - and if you want to create your own and add it to the repository, feel free to check out our [contribution guidelines](/CONTRIBUTING.md).
+The modules are free for anyone to use - and if you want to create your own and add it to the repository, feel free to check out our [all our guidelines](https://github.com/DevOps-Girls/Administration).

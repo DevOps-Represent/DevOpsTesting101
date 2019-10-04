@@ -16,6 +16,6 @@
 ### 4) Return to your SSH instructions
 
 
-[Return to SSH for Mac](./8-1-SSH-Login-To-EC2.md)
+[Return to SSH for Mac](./8-1-SSH-SSH-from-Mac.md)
 
 [Return to SSH for Windows](./8-2-SSH-from-Windows.md)

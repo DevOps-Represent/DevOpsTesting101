@@ -19,11 +19,18 @@ Run command in bash (assuming you’ve saved it in downloads):
 `$chmod 400 ~/Downloads/keyname.pem`
 
 Example
-$chmod 400 ~/Downloads/leorentanyag.pem 
- 
+$chmod 400 ~/Downloads/leorentanyag.pem
+
 ### 3) SSH into your instance using your pem key
 
-`ssh -i ~/Downloads/<keyname.pem> ec2-user@<IPv4 Public IP adres>`
+
+`ssh -i ~/Downloads/<keyname.pem> ec2-user@<IPv4 Public IP address>`
+
+or
+
+`ssh -i ~/Downloads/<keyname.pem> ubuntu@<IPv4 Public IP address>`
 
 Example:
+```
 ssh -i ~/Downloads/leorentanyag.pem ec2-user@13.55.214.58
+```

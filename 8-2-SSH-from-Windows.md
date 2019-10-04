@@ -1,5 +1,9 @@
 # SSH access from Windows
 
+## First, choose either EC2 or Ubuntu per these instructions
+
+[What kind of Linux machine do I have?](./8-3-SSH-determining-your-machine.md)
+
 ## With Windows 10, a lot has been simplified for us in this workshop!
 
 Please enable ssh on your machine:
@@ -7,11 +11,39 @@ https://www.howtogeek.com/336775/how-to-enable-and-use-windows-10s-built-in-ssh-
 
 If the above is successful, you will see this in your command line:
 
+![alt text](/images/ssh_image.jpg)
+
+### 1) Find your EC2 instance's Public IP
+In AWS Click on EC2
+
+Go to the Running Instances
+
+Find and select your EC2 instance
+
+Copy your EC2 instance's IPv4 Public IP
+
+### 2) Log in from the command line
+
+From your Downloads folder on the command line, use one of the following:
+
+`ssh -i <keyname.pem> ec2-user@<IPv4 Public IP address>`
+
+or
+
+`ssh -i <keyname.pem> ubuntu@<IPv4 Public IP address>`
+
+Example:
+```
+ssh -i ~/Downloads/leorentanyag.pem ec2-user@13.55.214.58
+```
+
+___
+
 ## Lower versions of windows
 
-Unfortunately, the best SSH client for Windows also requires its own format. So the Windows steps will have two parts: A.) Generating the key, and B.) Using the key
+Unfortunately, the best SSH client for Windows also requires its own format. So the Windows steps will have two parts: A.) Generating the key, and B.) Using the key.
 
-## Generate the key
+## A. Generate the key
 
 ### 1.) Go to the Putty webpage
 
@@ -46,7 +78,7 @@ Choose **Save private key** to save the key in the format that PuTTY can use. Pu
 Specify the same name for the key that you used for the key pair (for example, `banana-smith-keypair`)
 
 
-## Logging in
+## B. Logging in
 
 ### 1.) Start PuTTY
 
@@ -54,7 +86,7 @@ From the Start menu, choose **All Programs > PuTTY > PuTTY**
 
 ### 2.) Set your login
 
-In the *Category* pane, select **Session** and complete the following fields:
+In the *Category* pane, select **Session** and complete the following fields based on your image type as per [these instructions](./8-3-SSH-determining-your-machine.md):
 
 
 ```
@@ -62,6 +94,7 @@ In the *Category* pane, select **Session** and complete the following fields:
  Port: 22
  Connection type: SSH
 ```
+
 
 Make sure you replace *[PUBLIC IP]* with the *Public IP* of your EC2 instance. For example:
 
@@ -71,6 +104,13 @@ Make sure you replace *[PUBLIC IP]* with the *Public IP* of your EC2 instance. F
  Connection type: SSH
 ```
 
+OR
+
+```
+ Host: ubuntu[PUBLIC IP]
+ Port: 22
+ Connection type: SSH
+```
 
 ### 3.) Select your key file
 

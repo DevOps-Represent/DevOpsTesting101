@@ -128,17 +128,18 @@ You also have the option to specify **My IP** in the SSH section, so that only y
 
 ### 11.) Using the keypair you made previously
 
-Finally, we get to the part where you have to choose the key file that you want to access your instance with. Remember the key pair you made earlier? Select **Choose an existing keypair** and select the name of the keypair you made previously. Now, click on **Launch Instance**.
-
-![Keypair](images/2-2-EC2/selectkeypairLaunch.png)
-
-### 12.) Launching your instance
-
 The summary page shows you:
 
 ![ReviewLaunch](images/2-2-EC2/step7ReviewInstanceLaunch.png)
 
 Accept the defaults and press **Launch**.
+
+Finally, we get to the part where you have to choose the key file that you want to access your instance with. Remember the key pair you made earlier? Select **Choose an existing keypair** and select the name of the keypair you made previously. Now, click on **Launch Instance**.
+
+![Keypair](images/2-2-EC2/selectkeypairLaunch.png)
+
+
+### 12.) Launching your instance
 
 Once your instance launches, you'll see a window that shows your instance IDs There will also be details below of how you should connect to your instance. You can follow these, or you can click on the next few links.
 

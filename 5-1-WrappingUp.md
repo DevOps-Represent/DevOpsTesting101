@@ -23,13 +23,13 @@ https://github.com/DevOps-Girls
 
 ### Meetups
 
-https://www.meetup.com/DevOpsGirls/
-https://www.meetup.com/PyLadies-Melbourne/
-https://www.meetup.com/Women-Who-Code-Melbourne/
-https://www.meetup.com/Tech-Leading-Ladies/
-https://www.meetup.com/Female-Coders-Lab-Melbourne/
-https://www.meetup.com/Infrastructure-Coders/
-https://www.meetup.com/Women-Who-Test/
+https://www.meetup.com/DevOpsGirls/<br/>
+https://www.meetup.com/PyLadies-Melbourne/<br/>
+https://www.meetup.com/Women-Who-Code-Melbourne/<br/>
+https://www.meetup.com/Tech-Leading-Ladies/ <br/>
+https://www.meetup.com/Female-Coders-Lab-Melbourne/<br/>
+https://www.meetup.com/Infrastructure-Coders/<br/>
+https://www.meetup.com/Women-Who-Test/<br/>
 
 
 ### Reading

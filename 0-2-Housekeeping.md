@@ -14,6 +14,12 @@
 ## Wifi
 Printed out for each individually
 
+Troubleshooting on a Mac: 
+- Go to Network - Preference Pane
+- Click on Advanced button
+- Click on TCP / IP tab:
+- Make sure Configure IPv4 is set to Using DHCP
+
 ## Agenda
 https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/1-0-Agenda.md
 

@@ -11,7 +11,7 @@
 * Pacing and breaks
 * Questions
 
-## Wifi
+## Wifi (relevant to inhouse workshops)
 Printed out for each individually
 
 Troubleshooting on a Mac: 
@@ -21,25 +21,24 @@ Troubleshooting on a Mac:
 - Make sure Configure IPv4 is set to Using DHCP
 
 ## Agenda
-https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/1-0-Agenda.md
+inhouse: https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/1-0-Agenda.md
+online: https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/1-0-OnlineAgenda.md
 
 ## Slack
 
 Invites for our Slack team went out prior to the workshop.
 
-If you have not yet joined our Slack team, or are having trouble joining, ask JC or Theresa for help.
+If you have not yet joined our Slack team, or are having trouble joining, ask Theresa for help.
 
-Once in our team, join the #oct2019-workshop channel:
-https://app.slack.com/client/T3C4QL1RC/CNE45AXGU
+Once in our team, join the the workshop channel.
 
 ## Terms and Glossary
 
 We are attempting to define all the terms we use, either in the text itself, or the [glossary](glossary.md).
 
-
 ## Pairing
-Try and work as pairs, this often helps the learning process.</br>
-Before we move on, say hi to the person next to you.</br>
+Try and work as pairs or groups, this often helps the learning process.</br>
+Let's say hi to everyone here.
 
 ## Code of conduct
 

@@ -21,7 +21,7 @@ Troubleshooting on a Mac:
 - Make sure Configure IPv4 is set to Using DHCP
 
 ## Agenda
-inhouse: https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/1-0-Agenda.md
+inhouse: https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/1-0-Agenda.md</br>
 online: https://github.com/DevOps-Girls/DevOpsTesting101/blob/master/1-0-OnlineAgenda.md
 
 ## Slack

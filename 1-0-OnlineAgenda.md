@@ -18,5 +18,5 @@ This workshop is self-paced, after the introduction sections.
 |  | Create server & deploy website to EC2 | [2-2 Deploy to EC2](2-2-DeployEC2Template.md)|
 |  | Add monitoring & alerting (Cloudwatch) to EC2 | [3-1 Monitoring](3-1-Monitoring.md)|
 |  | Choose your own adventure: AWS Developer Tools | [4-1 Adventure](4-1-Adventure.md)|
-| x:50 | Break for 10 minutes | |
+| x:50 | Break every hour for 10 minutes from :50 until :00 | |
 | 13:50 | Clean Up and Wrap Up | [5-1 Wrapping Up](5-1-WrappingUp.md)|
